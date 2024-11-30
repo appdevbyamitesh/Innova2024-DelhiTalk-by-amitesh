@@ -1,8 +1,28 @@
 # Innova 2024 Delhi NCR Talk by Amitesh Mani Tiwari
-[Connect on LinkedIn](https://www.linkedin.com/in/amitesh-mani-tiwari)
+[Connect on LinkedIn](https://www.linkedin.com/in/appdevbyamitesh)
 
 ## Overview
 Amitesh Mani Tiwari introduces the "InnovaEventManagement" project during the Innova 2024 in Delhi NCR. This application showcases Firebase integration within an iOS app using the MVVM architecture, focusing on features such as user authentication, event listing, and management.
+
+## Dependencies
+- **Firebase/Auth**: Handles user authentication.
+- **Firebase/Firestore**: Manages real-time database interactions.
+- **Firebase/Functions**: Automates backend processes via cloud functions.
+- **Firebase/Storage**: Provides file storage solutions.
+- **Firebase/Crashlytics**: Offers crash reporting and analytics.
+- **Firebase/Analytics**: Tracks app usage and user engagement.
+- **FirebaseUI/Auth**: Simplifies UI for authentication.
+- **FirebaseUI/Firestore**: Facilitates UI binding for Firestore data.
+- **Firebase/Messaging**: Enables push notifications.
+
+### Installation
+To install the dependencies, run the following command in the project directory:
+```bash
+pod install
+```
+## Architecture
+- MVVM 
+- Utilizes SOLID principles for robustness and scalability.
 
 ### Key Components
 - **LoginViewController**: Handles the authentication of users using email and password.
@@ -17,13 +37,13 @@ Amitesh Mani Tiwari introduces the "InnovaEventManagement" project during the In
    - **File**: images/1.png
    - Simplifies user login and registration using Firebase Authentication.
    - Supports multiple authentication methods such as email/password, Google login, and Facebook login.
-   - ![User Authentication Flow](images/1.png)
+   - ![User Authentication Flow](images/2.png)
 
 2. **Real-Time Data Interaction**:
    - **File**: images/2.png
    - Demonstrates real-time data updates and UI synchronization using Firestore.
    - Ensures seamless data consistency across different user devices.
-   - ![Real-Time Data Interaction](images/2.png)
+   - ![Real-Time Data Interaction](images/1.png)
 
 3. **Cloud Functions Automation**:
    - **File**: images/3.png
@@ -44,9 +64,18 @@ Amitesh Mani Tiwari introduces the "InnovaEventManagement" project during the In
    - Ensures high reliability and smooth operation of the app.
    - ![Error Handling and Monitoring](images/5.png)
 
-### Social Media and Engagement
-- **[Twitter](https://twitter.com/appdevbyamitesh)**
-- **[Instagram](https://www.instagram.com/amitesh)**
-- **[Facebook](https://www.facebook.com/amitesh.mani)**
+## Facing Any Problem or need any Help
+Write me in [issues](https://github.com/geekyamitesh/MedBookApp-iOSApp/issues) section. I will try solve your issue within 10-12 hours.
+</br>***Keep Developing and Destroying.*** :wink:
 
-Please follow Amitesh on social media to connect with a community of tech enthusiasts and share your experiences and learnings from the event!
+<p align="center">
+  <i>Take a look at my repositories and let's get in touch!</i>
+
+<p align="center">
+<a href= "https://github.com/appdevbyamitesh"><img src="https://img.icons8.com/material-outlined/27/000000/ball-point-pen.png"/></a>
+<a href= "https://www.linkedin.com/in/appdevbyamitesh/"><img src="https://img.icons8.com/material-outlined/30/000000/linkedin.png"/></a>
+<a href= "https://twitter.com/appdevbyamitesh"><img src="https://img.icons8.com/material-outlined/30/000000/twitter.png"/></a>
+<a href= "https://geekyamitesh.github.io/amitesh/"><img src="https://img.icons8.com/material-outlined/27/000000/geography.png"/></a>
+</p>
+
+</p>
