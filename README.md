@@ -1,4 +1,4 @@
-# Innova 2024 Delhi NCR Talk by [Amitesh Mani Tiwari] (https://www.linkedin.com/in/appdevbyamitesh)
+# Innova 2024 Delhi NCR Talk by [Amitesh Mani Tiwari](https://www.linkedin.com/in/appdevbyamitesh)
 - **Position**: Software Engineer (iOS Team) at Angel One 👨‍💻.
 - **Experience**: Over 35 technical and non-technical talks delivered as a technical speaker 🎙️.
 - **Roles**: Hackathon mentor and judge 🏆.
