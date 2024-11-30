@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A307EA3C77F8859F3682B7F /* Pods_InnovaEventManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC1F2B7DCFD0956FE11DA34 /* Pods_InnovaEventManagement.framework */; };
+		C98A6BEE2CFB2C2D0040BB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6BED2CFB2C2D0040BB39 /* AppDelegate.swift */; };
+		C98A6BF02CFB2C2D0040BB39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6BEF2CFB2C2D0040BB39 /* SceneDelegate.swift */; };
+		C98A6BF22CFB2C2D0040BB39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6BF12CFB2C2D0040BB39 /* ViewController.swift */; };
+		C98A6BF72CFB2C2F0040BB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98A6BF62CFB2C2F0040BB39 /* Assets.xcassets */; };
+		C98A6C052CFB2FB60040BB39 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C042CFB2FB60040BB39 /* Event.swift */; };
+		C98A6C072CFB2FC20040BB39 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C062CFB2FC20040BB39 /* AuthViewModel.swift */; };
+		C98A6C092CFB2FCF0040BB39 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C082CFB2FCF0040BB39 /* EventViewModel.swift */; };
+		C98A6C0B2CFB2FE50040BB39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C0A2CFB2FE50040BB39 /* LoginViewController.swift */; };
+		C98A6C0D2CFB2FF20040BB39 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C0C2CFB2FF20040BB39 /* RegisterViewController.swift */; };
+		C98A6C0F2CFB30010040BB39 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C0E2CFB30010040BB39 /* EventListViewController.swift */; };
+		C98A6C132CFB4E040040BB39 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98A6C122CFB4E040040BB39 /* AppAuth.framework */; };
+		C98A6C152CFB4E0B0040BB39 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98A6C142CFB4E0B0040BB39 /* FirebaseAuth.framework */; };
+		C98A6C172CFB4E130040BB39 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98A6C162CFB4E130040BB39 /* FirebaseFirestore.framework */; };
+		C98A6C192CFB8D020040BB39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C98A6C182CFB8D020040BB39 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45AF20CBCAFBDE38B82B46B9 /* Pods-InnovaEventManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnovaEventManagement.release.xcconfig"; path = "Target Support Files/Pods-InnovaEventManagement/Pods-InnovaEventManagement.release.xcconfig"; sourceTree = "<group>"; };
+		6F785939B2449EA9E74C67FB /* Pods-InnovaEventManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnovaEventManagement.debug.xcconfig"; path = "Target Support Files/Pods-InnovaEventManagement/Pods-InnovaEventManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		C98A6BEA2CFB2C2D0040BB39 /* InnovaEventManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnovaEventManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98A6BED2CFB2C2D0040BB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C98A6BEF2CFB2C2D0040BB39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C98A6BF12CFB2C2D0040BB39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C98A6BF62CFB2C2F0040BB39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C98A6BFB2CFB2C2F0040BB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98A6C042CFB2FB60040BB39 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C98A6C062CFB2FC20040BB39 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C98A6C082CFB2FCF0040BB39 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		C98A6C0A2CFB2FE50040BB39 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C98A6C0C2CFB2FF20040BB39 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C98A6C0E2CFB30010040BB39 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		C98A6C122CFB4E040040BB39 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98A6C142CFB4E0B0040BB39 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98A6C162CFB4E130040BB39 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98A6C182CFB8D020040BB39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEC1F2B7DCFD0956FE11DA34 /* Pods_InnovaEventManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InnovaEventManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C98A6BE72CFB2C2D0040BB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98A6C172CFB4E130040BB39 /* FirebaseFirestore.framework in Frameworks */,
+				C98A6C152CFB4E0B0040BB39 /* FirebaseAuth.framework in Frameworks */,
+				C98A6C132CFB4E040040BB39 /* AppAuth.framework in Frameworks */,
+				0A307EA3C77F8859F3682B7F /* Pods_InnovaEventManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ABA94D0B31D33BF4BF288B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C98A6C162CFB4E130040BB39 /* FirebaseFirestore.framework */,
+				C98A6C142CFB4E0B0040BB39 /* FirebaseAuth.framework */,
+				C98A6C122CFB4E040040BB39 /* AppAuth.framework */,
+				DEC1F2B7DCFD0956FE11DA34 /* Pods_InnovaEventManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98A6BE12CFB2C2D0040BB39 = {
+			isa = PBXGroup;
+			children = (
+				C98A6BEC2CFB2C2D0040BB39 /* InnovaEventManagement */,
+				C98A6BEB2CFB2C2D0040BB39 /* Products */,
+				EE059BE1C8BB10A6EFED687C /* Pods */,
+				2ABA94D0B31D33BF4BF288B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C98A6BEB2CFB2C2D0040BB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C98A6BEA2CFB2C2D0040BB39 /* InnovaEventManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98A6BEC2CFB2C2D0040BB39 /* InnovaEventManagement */ = {
+			isa = PBXGroup;
+			children = (
+				C98A6C032CFB2F8F0040BB39 /* Views */,
+				C98A6C022CFB2F760040BB39 /* ViewModels */,
+				C98A6C012CFB2F6B0040BB39 /* Models */,
+				C98A6BED2CFB2C2D0040BB39 /* AppDelegate.swift */,
+				C98A6BEF2CFB2C2D0040BB39 /* SceneDelegate.swift */,
+				C98A6BF12CFB2C2D0040BB39 /* ViewController.swift */,
+				C98A6BF62CFB2C2F0040BB39 /* Assets.xcassets */,
+				C98A6BFB2CFB2C2F0040BB39 /* Info.plist */,
+				C98A6C182CFB8D020040BB39 /* GoogleService-Info.plist */,
+			);
+			path = InnovaEventManagement;
+			sourceTree = "<group>";
+		};
+		C98A6C012CFB2F6B0040BB39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C98A6C042CFB2FB60040BB39 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C98A6C022CFB2F760040BB39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C98A6C062CFB2FC20040BB39 /* AuthViewModel.swift */,
+				C98A6C082CFB2FCF0040BB39 /* EventViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C98A6C032CFB2F8F0040BB39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C98A6C0A2CFB2FE50040BB39 /* LoginViewController.swift */,
+				C98A6C0C2CFB2FF20040BB39 /* RegisterViewController.swift */,
+				C98A6C0E2CFB30010040BB39 /* EventListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE059BE1C8BB10A6EFED687C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F785939B2449EA9E74C67FB /* Pods-InnovaEventManagement.debug.xcconfig */,
+				45AF20CBCAFBDE38B82B46B9 /* Pods-InnovaEventManagement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C98A6BE92CFB2C2D0040BB39 /* InnovaEventManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98A6BFE2CFB2C2F0040BB39 /* Build configuration list for PBXNativeTarget "InnovaEventManagement" */;
+			buildPhases = (
+				EF37F757B43013844DF7C54B /* [CP] Check Pods Manifest.lock */,
+				C98A6BE62CFB2C2D0040BB39 /* Sources */,
+				C98A6BE72CFB2C2D0040BB39 /* Frameworks */,
+				C98A6BE82CFB2C2D0040BB39 /* Resources */,
+				F08629951E55B39526749EA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnovaEventManagement;
+			productName = InnovaEventManagement;
+			productReference = C98A6BEA2CFB2C2D0040BB39 /* InnovaEventManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C98A6BE22CFB2C2D0040BB39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C98A6BE92CFB2C2D0040BB39 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C98A6BE52CFB2C2D0040BB39 /* Build configuration list for PBXProject "InnovaEventManagement" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C98A6BE12CFB2C2D0040BB39;
+			productRefGroup = C98A6BEB2CFB2C2D0040BB39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C98A6BE92CFB2C2D0040BB39 /* InnovaEventManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C98A6BE82CFB2C2D0040BB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98A6C192CFB8D020040BB39 /* GoogleService-Info.plist in Resources */,
+				C98A6BF72CFB2C2F0040BB39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF37F757B43013844DF7C54B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InnovaEventManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F08629951E55B39526749EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InnovaEventManagement/Pods-InnovaEventManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InnovaEventManagement/Pods-InnovaEventManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InnovaEventManagement/Pods-InnovaEventManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98A6BE62CFB2C2D0040BB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98A6C0B2CFB2FE50040BB39 /* LoginViewController.swift in Sources */,
+				C98A6C072CFB2FC20040BB39 /* AuthViewModel.swift in Sources */,
+				C98A6C092CFB2FCF0040BB39 /* EventViewModel.swift in Sources */,
+				C98A6C0D2CFB2FF20040BB39 /* RegisterViewController.swift in Sources */,
+				C98A6C0F2CFB30010040BB39 /* EventListViewController.swift in Sources */,
+				C98A6C052CFB2FB60040BB39 /* Event.swift in Sources */,
+				C98A6BF22CFB2C2D0040BB39 /* ViewController.swift in Sources */,
+				C98A6BEE2CFB2C2D0040BB39 /* AppDelegate.swift in Sources */,
+				C98A6BF02CFB2C2D0040BB39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C98A6BFC2CFB2C2F0040BB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C98A6BFD2CFB2C2F0040BB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C98A6BFF2CFB2C2F0040BB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F785939B2449EA9E74C67FB /* Pods-InnovaEventManagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L9Y76834Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InnovaEventManagement/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeekyAmitesh.InnovaEventManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C98A6C002CFB2C2F0040BB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AF20CBCAFBDE38B82B46B9 /* Pods-InnovaEventManagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L9Y76834Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InnovaEventManagement/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeekyAmitesh.InnovaEventManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C98A6BE52CFB2C2D0040BB39 /* Build configuration list for PBXProject "InnovaEventManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98A6BFC2CFB2C2F0040BB39 /* Debug */,
+				C98A6BFD2CFB2C2F0040BB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98A6BFE2CFB2C2F0040BB39 /* Build configuration list for PBXNativeTarget "InnovaEventManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98A6BFF2CFB2C2F0040BB39 /* Debug */,
+				C98A6C002CFB2C2F0040BB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C98A6BE22CFB2C2D0040BB39 /* Project object */;
+}
