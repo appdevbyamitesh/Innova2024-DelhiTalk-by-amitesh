@@ -1,5 +1,9 @@
-# Innova 2024 Delhi NCR Talk by Amitesh Mani Tiwari
-[Connect on LinkedIn](https://www.linkedin.com/in/appdevbyamitesh)
+# Innova 2024 Delhi NCR Talk by [Amitesh Mani Tiwari] (https://www.linkedin.com/in/appdevbyamitesh)
+- **Position**: Software Engineer (iOS Team) at Angel One 👨‍💻.
+- **Experience**: Over 35 technical and non-technical talks delivered as a technical speaker 🎙️.
+- **Roles**: Hackathon mentor and judge 🏆.
+- **Achievements**: Winner of the 21 Under 21 Award 🥇.
+- **Upcoming Projects**: Soon-to-be novelist with a novel currently in the publishing phase 📖.
 
 ## Overview
 Amitesh Mani Tiwari introduces the "InnovaEventManagement" project during the Innova 2024 in Delhi NCR. This application showcases Firebase integration within an iOS app using the MVVM architecture, focusing on features such as user authentication, event listing, and management.
